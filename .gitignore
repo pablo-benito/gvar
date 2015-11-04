@@ -22,6 +22,12 @@
 *.a
 *.lib
 
+# Images
+*.tif
+*.tiff
+*.jpeg
+*.jpg
+
 # Executables
 gvar
 makefiles/*/gvar
@@ -34,3 +40,4 @@ makefiles/*/usage.h
 *.exe
 *.out
 *.app
+
