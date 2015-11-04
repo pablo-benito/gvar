@@ -1,5 +1,5 @@
 # gvar
-The gvar program allows one to convert GVAR data (recorded from a GOES satellite) into radiometrically calibrated images
+The gvar program allows one to convert GVAR raw data (recorded from a GOES satellite) into radiometrically calibrated images
 
 
 ## Requirements
