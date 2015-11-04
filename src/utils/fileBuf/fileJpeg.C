@@ -78,7 +78,7 @@ int FileJpeg::Close(int channel) {
     bufFlush(channel);
     jpeg_finish_compress(cinfo[channel]);
     jpeg_destroy_compress(cinfo[channel]);
-    delete cinfo[channel]; 
+    //delete cinfo[channel]; 
     fclose(Bin[channel]);
     rename(tmpName(FileName(channel)), FileName(channel));
     if(linkLatest()) MakeLink(channel, (char*) ".jpg");
