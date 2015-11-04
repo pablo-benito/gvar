@@ -1,0 +1,15 @@
+
+Install externals libraries:
+
+   f2c
+   libjpeg
+   libtiff
+   
+
+
+These libraries should be installed into /usr/lib
+
+On a Ubuntu/Debian you can type:
+ sudo apt-get install build-essential f2c libjpeg-dev libtiff4-dev
+
+to resolve all the dependencies needed
