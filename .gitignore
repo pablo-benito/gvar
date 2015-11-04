@@ -26,6 +26,11 @@
 gvar
 makefiles/*/gvar
 makefiles/*/makedepend
+makefiles/*/Gimloc3.Om.c
+makefiles/*/VERSION
+makefiles/*/mkdoc
+makefiles/*/readme.h
+makefiles/*/usage.h
 *.exe
 *.out
 *.app
