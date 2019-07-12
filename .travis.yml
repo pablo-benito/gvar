@@ -1,3 +1,10 @@
+
 before_install:
   - sudo apt-get update
   - sudo apt-get install -y libf2c2-dev libtiff5-dev libjpeg-dev
+  
+install: make get-deps
+compiler:
+  - gcc
+  - clang
+  
