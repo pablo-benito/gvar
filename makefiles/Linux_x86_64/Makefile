@@ -11,7 +11,7 @@ cc = gcc -O2 -pedantic -Wall -W -D_LSBF_  -Wno-unused-parameter -Wno-unused-resu
 
 CCFLAGS = -I. -I$D 
 
-F2CLIBS =  /usr/lib/libf2c.a
+F2CLIBS =  /usr/lib/x86_64-linux-gnu/libf2c.a
 #F2CLIBS = -lf2c 
 
 IMAGELIBS = /usr/lib/x86_64-linux-gnu/libjpeg.a /usr/lib/x86_64-linux-gnu/libtiff.a
