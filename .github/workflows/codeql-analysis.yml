@@ -18,9 +18,7 @@ jobs:
   analyze:
     name: Analyze
     runs-on: ubuntu-latest
-    befo:
-      - sudo apt-get update
-      - sudo apt-get install -y libf2c2-dev libtiff5-dev libjpeg-dev f2c
+    
     strategy:
       fail-fast: false
       matrix:
